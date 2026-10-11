@@ -1,0 +1,7 @@
+# torch/torchvision встановлюються окремо з CUDA-індексом:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+numpy
+opencv-python
+ultralytics
+onnx
+onnxruntime

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="626" height="1161" viewBox="0 0 626 1161" font-family="Arial, Helvetica, sans-serif" font-size="13">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#000"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="313.0" y="30" text-anchor="middle" font-size="16" font-weight="bold">Відбір псевдо-міток</text>
+<path d="M181.0,104.0 L181.0,150.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,206.0 L181.0,252.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,296.0 L181.0,342.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,386.0 L181.0,432.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,512.6 L181.0,558.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="187.0" y="526.6" font-size="12" font-style="italic">Так</text>
+<path d="M307.3,472.3 L431.0,472.3 L431.0,810.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="313.28" y="466.3" font-size="12" font-style="italic">Ні</text>
+<path d="M181.0,614.6 L181.0,660.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,741.2 L181.0,787.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="187.0" y="755.1999999999999" font-size="12" font-style="italic">Так</text>
+<path d="M288.9,700.9 L431.0,700.9 L431.0,810.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="294.92" y="694.9" font-size="12" font-style="italic">Ні</text>
+<path d="M181.0,877.2 L181.0,923.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M431.0,854.2 L431.0,909.2 L181.0,909.2 L181.0,923.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,993.2 L181.0,1039.2" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="187.0" y="1007.2" font-size="12" font-style="italic">Ні</text>
+<path d="M73.1,958.2 L36.7,958.2 L36.7,230.0 L181.0,230.0 L181.0,252.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="43.08" y="952.2" font-size="12" font-style="italic">Так</text>
+<rect x="111.0" y="60.0" width="140" height="44" rx="22.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="86.55" text-anchor="middle">Початок</text>
+<polygon points="87.0,150.0 303.0,150.0 275.0,206.0 59.0,206.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="174.05" text-anchor="middle">Перелік зображень у теці,</text><text x="181.0" y="191.05" text-anchor="middle">включно з вкладеними</text>
+<polygon points="100.0,252.0 290.0,252.0 262.0,296.0 72.0,296.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="278.55" text-anchor="middle">Наступне зображення</text>
+<rect x="86.0" y="342.0" width="190" height="44" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="368.55" text-anchor="middle">Виконання моделі</text>
+<polygon points="181.0,432.0 307.28,472.3 181.0,512.6 54.72,472.3" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="468.35" text-anchor="middle">Одна маска і оцінка</text><text x="181.0" y="485.35" text-anchor="middle">не менша за поріг?</text>
+<rect x="76.6" y="558.6" width="208.8" height="56" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="582.65" text-anchor="middle">Найбільший контур маски,</text><text x="181.0" y="599.65" text-anchor="middle">спрощення до 60 вершин</text>
+<polygon points="181.0,660.6 288.92,700.9 181.0,741.1999999999999 73.08,700.9" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="696.9499999999999" text-anchor="middle">Площа ≥ 50 px² і</text><text x="181.0" y="713.9499999999999" text-anchor="middle">вершин ≥ 4?</text>
+<rect x="69.39999999999999" y="787.2" width="223.20000000000002" height="90" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="811.25" text-anchor="middle">Копія зображення і мітка</text><text x="181.0" y="828.25" text-anchor="middle">YOLO-seg у train, кожне</text><text x="181.0" y="845.25" text-anchor="middle">8-ме у valid; зображення з</text><text x="181.0" y="862.25" text-anchor="middle">контуром для перегляду</text>
+<rect x="336.0" y="810.2" width="190" height="44" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="431.0" y="836.75" text-anchor="middle">Пропуск зображення</text>
+<polygon points="181.0,923.2 288.92,958.2 181.0,993.2 73.08,958.2" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="962.75" text-anchor="middle">Є ще зображення?</text>
+<rect x="69.39999999999999" y="1039.2" width="223.20000000000002" height="56" rx="28.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="1063.25" text-anchor="middle">Кінець: підсумок прийнятих</text><text x="181.0" y="1080.25" text-anchor="middle">і пропущених</text>
+</svg>

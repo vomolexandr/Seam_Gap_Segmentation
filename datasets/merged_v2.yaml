@@ -1,0 +1,12 @@
+# v2: синтетика + welding-jointb + відфільтровані псевдо-мітки (self-training)
+path: /абсолютний/шлях/до/репозиторію   # замінити на свій
+train:
+  - out/synthetic/images/train
+  - datasets/welding-jointb/train/images
+  - datasets/pseudo_timepass/train/images
+  - datasets/pseudo_internet-plus/train/images
+val:
+  - out/synthetic/images/val
+  - datasets/welding-jointb/valid/images
+names:
+  0: seam

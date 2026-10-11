@@ -1,0 +1,11 @@
+# Об'єднаний датасет: синтетика + welding-jointb (Roboflow, CC BY 4.0)
+# Ultralytics приймає списки шляхів; мітки знаходить заміною images -> labels.
+path: /абсолютний/шлях/до/репозиторію   # замінити на свій
+train:
+  - out/synthetic/images/train
+  - datasets/welding-jointb/train/images
+val:
+  - out/synthetic/images/val
+  - datasets/welding-jointb/valid/images
+names:
+  0: seam

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="626" height="1152" viewBox="0 0 626 1152" font-family="Arial, Helvetica, sans-serif" font-size="13">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#000"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="313.0" y="30" text-anchor="middle" font-size="16" font-weight="bold">Цикл розпізнавання на Raspberry Pi</text>
+<path d="M181.0,104.0 L181.0,150.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,223.0 L181.0,269.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,313.0 L181.0,359.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,466.0 L181.0,512.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,568.0 L181.0,614.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,694.6 L181.0,740.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="187.0" y="708.5999999999999" font-size="12" font-style="italic">Так</text>
+<path d="M301.2,654.3 L431.0,654.3 L431.0,757.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/><text x="307.15999999999997" y="648.3" font-size="12" font-style="italic">Ні</text>
+<path d="M181.0,830.6 L181.0,876.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,949.6 L181.0,995.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M431.0,813.6 L431.0,981.6 L181.0,981.6 L181.0,995.6" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<path d="M181.0,1085.6 L181.0,1097.6 L42.8,1097.6 L42.8,247.0 L181.0,247.0 L181.0,269.0" fill="none" stroke="#000" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="111.0" y="60.0" width="140" height="44" rx="22.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="86.55" text-anchor="middle">Початок</text>
+<rect x="69.39999999999999" y="150.0" width="223.20000000000002" height="73" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="174.05" text-anchor="middle">Ініціалізація: камера,</text><text x="181.0" y="191.05" text-anchor="middle">модель ONNX, Modbus-сервер</text><text x="181.0" y="208.05" text-anchor="middle">(якщо задано --modbus)</text>
+<polygon points="87.0,269.0 303.0,269.0 275.0,313.0 59.0,313.0" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="295.55" text-anchor="middle">Захоплення кадра з камери</text>
+<rect x="73.0" y="359.0" width="216.0" height="107" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="383.05" text-anchor="middle">Вирізання області пошуку</text><text x="181.0" y="400.05" text-anchor="middle">(за ключем --roi),</text><text x="181.0" y="417.05" text-anchor="middle">масштабування з полями до</text><text x="181.0" y="434.05" text-anchor="middle">640×640, RGB, діапазон</text><text x="181.0" y="451.05" text-anchor="middle">0...1</text>
+<rect x="69.39999999999999" y="512.0" width="223.20000000000002" height="56" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="536.05" text-anchor="middle">Виконання моделі: детекції</text><text x="181.0" y="553.05" text-anchor="middle">і прототипи масок</text>
+<polygon points="181.0,614.0 301.15999999999997,654.3 181.0,694.5999999999999 60.84,654.3" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="650.3499999999999" text-anchor="middle">Найкраща оцінка не</text><text x="181.0" y="667.3499999999999" text-anchor="middle">менша за поріг?</text>
+<rect x="86.0" y="740.6" width="190" height="90" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="764.65" text-anchor="middle">Маска з прототипів,</text><text x="181.0" y="781.65" text-anchor="middle">обрізка за рамкою,</text><text x="181.0" y="798.65" text-anchor="middle">повернення до розміру</text><text x="181.0" y="815.65" text-anchor="middle">кадра</text>
+<rect x="73.0" y="876.6" width="216.0" height="73" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="900.65" text-anchor="middle">Кромки в 5 рядках уздовж</text><text x="181.0" y="917.65" text-anchor="middle">шва: (y, x_ліва, x_права)</text><text x="181.0" y="934.65" text-anchor="middle">у координатах кадра</text>
+<rect x="330.2" y="757.6" width="201.6" height="56" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="431.0" y="781.65" text-anchor="middle">Статус 0, кромок немає,</text><text x="431.0" y="798.65" text-anchor="middle">оцінка записується</text>
+<polygon points="83.39999999999999,995.5999999999999 306.6,995.5999999999999 278.6,1085.6 55.39999999999999,1085.6" fill="#fff" stroke="#000" stroke-width="1.4"/><text x="181.0" y="1019.6499999999999" text-anchor="middle">Запис у регістри Modbus:</text><text x="181.0" y="1036.6499999999999" text-anchor="middle">лічильник, статус, оцінка,</text><text x="181.0" y="1053.6499999999999" text-anchor="middle">N, трійки (y, x_ліва,</text><text x="181.0" y="1070.6499999999999" text-anchor="middle">x_права)</text>
+</svg>
